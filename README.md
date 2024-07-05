@@ -1,30 +1,30 @@
 # Gezinomi Miuul Project
 Miuul Python Programming for Data Science  (Case Study)
-Projenin amaci: Kural Tabanlı Sınıflandırma ile Potansiyel Müşteri Getirisi Hesaplama
-İş Problemi: Gezinomi yaptığı satışların bazı özelliklerini kullanarak seviye tabanlı (level based) yeni satış tanımları oluşturmak ve bu yeni satış tanımlarına göre segmentler oluşturup bu segmentlere göre yeni gelebilecek müşterilerin şirkete ortalama ne kadar kazandırabileceğini tahmin etmek istemektedir. Örneğin: Antalya’dan Herşey Dahil bir otele yoğun bir dönemde gitmek isteyenbir müşterinin ortalama ne kadar kazandırabileceği belirlenmekisteniyor.
-Veri Seti Hikayesi: gezinomi_miuul.xlsx veri seti Gezinomi şirketinin yaptığı satışların fiyatlarını ve bu satışlara ait bilgiler içermektedir. Veri seti her satış işleminde oluşan kayıtlardan meydana gelmektedir. Bunun anlamı tablo tekilleştirilmemiştir. Diğer bir ifade ile müşteri birden fazla alışverişyapmış olabilir.
+* Projenin amaci: Kural Tabanlı Sınıflandırma ile Potansiyel Müşteri Getirisi Hesaplama
+* İş Problemi: Gezinomi yaptığı satışların bazı özelliklerini kullanarak seviye tabanlı (level based) yeni satış tanımları oluşturmak ve bu yeni satış tanımlarına göre segmentler oluşturup bu segmentlere göre yeni gelebilecek müşterilerin şirkete ortalama ne kadar kazandırabileceğini tahmin etmek istemektedir. Örneğin: Antalya’dan Herşey Dahil bir otele yoğun bir dönemde gitmek isteyenbir müşterinin ortalama ne kadar kazandırabileceği belirlenmekisteniyor.
+* Veri Seti Hikayesi: gezinomi_miuul.xlsx veri seti Gezinomi şirketinin yaptığı satışların fiyatlarını ve bu satışlara ait bilgiler içermektedir. Veri seti her satış işleminde oluşan kayıtlardan meydana gelmektedir. Bunun anlamı tablo tekilleştirilmemiştir. Diğer bir ifade ile müşteri birden fazla alışverişyapmış olabilir.
 
 # miuul_gezinomi.xlsx' Değişkenler
-SaleId: Satis Id
-SaleDate : Satış Tarihi
-Price: Satış için ödenen fiyat
-ConceptName:Otel konsept bilgisi
-SaleCityName: Otelin bulunduğu şehir bilgisi
-CheckInDate:Müşterinin otelegirişitarihi
-CInDay:Müşterinin otele giriş günü
-SaleCheckInDayDiff: Check in ile giriş tarihi gün farkı
-Season:Otele giriş tarihindeki sezon bilgisi
+* SaleId: Satis Id
+* SaleDate : Satış Tarihi
+* Price: Satış için ödenen fiyat
+* ConceptName:Otel konsept bilgisi
+* SaleCityName: Otelin bulunduğu şehir bilgisi
+* CheckInDate:Müşterinin otelegirişitarihi
+* CInDay:Müşterinin otele giriş günü
+* SaleCheckInDayDiff: Check in ile giriş tarihi gün farkı
+* Season:Otele giriş tarihindeki sezon bilgisi
 
 # Görev 1: Aşağıdaki Soruları Yanıtlayınız
-Soru1 : miuul_gezinomi.xlsx dosyasını okutunuz ve veri seti ile ilgili genel bilgileri gösteriniz..
-Soru 2:Kaçunique şehirvardır? Frekanslarınedir?
-Soru 3:Kaç unique Concept vardır?
-Soru4: Hangi Concept’den kaçar tane satış gerçekleşmiş?
-Soru5: Şehirlere göre satışlardan toplam ne kadar kazanılmış?
-Soru6:Concept türlerine göre göre ne kadar kazanılmış?
-Soru7: Şehirlere göre PRICE ortalamaları nedir?
-Soru 8:Conceptlere göre PRICE ortalamaları nedir?
-Soru 9: Şehir-Concept kırılımındaPRICE ortalamalarınedir?
+* Soru1 : miuul_gezinomi.xlsx dosyasını okutunuz ve veri seti ile ilgili genel bilgileri gösteriniz..
+* Soru 2: Kaç unique şehirvardır? Frekanslarınedir?
+* Soru 3: Kaç unique Concept vardır?
+* Soru4: Hangi Concept’den kaçar tane satış gerçekleşmiş?
+* Soru5: Şehirlere göre satışlardan toplam ne kadar kazanılmış?
+* Soru6: Concept türlerine göre göre ne kadar kazanılmış?
+* Soru7: Şehirlere göre PRICE ortalamaları nedir?
+* Soru 8:Conceptlere göre PRICE ortalamaları nedir?
+* Soru 9: Şehir-Concept kırılımındaPRICE ortalamalarınedir?
 
 # Görev 2: SaleCheckInDayDiff değişkenini kategorik bir değişkene çeviriniz.
 • SaleCheckInDayDiff değişkeni müşterinin 
