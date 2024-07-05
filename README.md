@@ -1,8 +1,8 @@
 # Gezinomi Miuul Project
-** Miuul Python Programming for Data Science  (Case Study)**
-* Projenin amaci: Kural Tabanlı Sınıflandırma ile Potansiyel Müşteri Getirisi Hesaplama
-* İş Problemi: Gezinomi yaptığı satışların bazı özelliklerini kullanarak seviye tabanlı (level based) yeni satış tanımları oluşturmak ve bu yeni satış tanımlarına göre segmentler oluşturup bu segmentlere göre yeni gelebilecek müşterilerin şirkete ortalama ne kadar kazandırabileceğini tahmin etmek istemektedir. Örneğin: Antalya’dan Herşey Dahil bir otele yoğun bir dönemde gitmek isteyenbir müşterinin ortalama ne kadar kazandırabileceği belirlenmekisteniyor.
-* Veri Seti Hikayesi: gezinomi_miuul.xlsx veri seti Gezinomi şirketinin yaptığı satışların fiyatlarını ve bu satışlara ait bilgiler içermektedir. Veri seti her satış işleminde oluşan kayıtlardan meydana gelmektedir. Bunun anlamı tablo tekilleştirilmemiştir. Diğer bir ifade ile müşteri birden fazla alışverişyapmış olabilir.
+**Miuul Python Programming for Data Science  (Case Study)**
+* **Projenin amaci**: Kural Tabanlı Sınıflandırma ile Potansiyel Müşteri Getirisi Hesaplama
+* **İş Problemi**: Gezinomi yaptığı satışların bazı özelliklerini kullanarak seviye tabanlı (level based) yeni satış tanımları oluşturmak ve bu yeni satış tanımlarına göre segmentler oluşturup bu segmentlere göre yeni gelebilecek müşterilerin şirkete ortalama ne kadar kazandırabileceğini tahmin etmek istemektedir. Örneğin: Antalya’dan Herşey Dahil bir otele yoğun bir dönemde gitmek isteyenbir müşterinin ortalama ne kadar kazandırabileceği belirlenmekisteniyor.
+* **Veri Seti Hikayesi**: gezinomi_miuul.xlsx veri seti Gezinomi şirketinin yaptığı satışların fiyatlarını ve bu satışlara ait bilgiler içermektedir. Veri seti her satış işleminde oluşan kayıtlardan meydana gelmektedir. Bunun anlamı tablo tekilleştirilmemiştir. Diğer bir ifade ile müşteri birden fazla alışverişyapmış olabilir.
 
 # miuul_gezinomi.xlsx' Değişkenler
 * SaleId: Satis Id
